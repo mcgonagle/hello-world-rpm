@@ -6,8 +6,8 @@ Directions copied from [here](https://rpm-packaging-guide.github.io/).
 Name:       hello-world
 Version:    1
 Release:    1
-Summary:    Most simple RPM package
-License:    FIXME
+Summary:    Most simple hello-world RPM package
+License:    Apache 2.0
 
 %description
 This is my first RPM package, which does nothing.
@@ -17,7 +17,7 @@ This is my first RPM package, which does nothing.
 
 %build
 cat > hello-world.sh <<EOF
-#!/usr/bin/bash
+#!/bin/bash
 echo Hello world
 EOF
 
