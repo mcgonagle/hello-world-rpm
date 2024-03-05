@@ -1,4 +1,4 @@
-# Hello World RPM spec file.
+# Hello-World RPM spec file.
 ## Creating an RPM package can be complicated. Here is a complete, working RPM Spec file with several things skipped and simplified.
 Directions copied from [here](https://rpm-packaging-guide.github.io/). 
 
