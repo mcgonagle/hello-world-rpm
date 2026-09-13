@@ -3,6 +3,8 @@ Version:    1
 Release:    1
 Summary:    Most simple hello-world RPM package
 License:    Apache 2.0
+# Sets the build target to architecture-independent
+BuildArch:      noarch
 
 %description
 This is my first RPM package, which does nothing.
